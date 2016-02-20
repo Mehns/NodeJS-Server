@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">  
+    <title>MME2 U1</title>
+
+  	<link rel="stylesheet" type="text/css" href="css/app.css">
+    <script data-main="js/appclient" src="js/require.js" type="text/javascript"></script>
+
+    <script type="text/template" id="video-template">
+      <h3><%= title %></h3>
+
+      <video class="video" controls>
+        <source src="<%= src %>" type=video/webm>
+      </video><br>
+
+      <div id="buttons">
+        <button class="play-video">▶</button>
+        <button class="stop-video">▇</button>
+      </div> <br>
+
+      <b>Length:</b> <%= length %> <br>
+      <b>Playcount:</b> <%= playcount %> <br>
+      <b>Description:</b> <%= description %> <br>
+      <b>Ranking:</b> <%= ranking %> <br>
+
+      
+    </script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Multimedia Engineering 2</h1>
+        <h2>Übung 1</h2>
+      </header>
+      <div class="main">
+        <div class="content">
+
+        </div>
+
+        <div class="side">
+          <ul>
+
+          </ul>
+        </div>
+      </div>
+
+      <footer>
+        <p>Lena Meßmer, Sophie Wirth</p>
+      </footer> 
+    </div>
+  </body>
+</html>      
